@@ -3,18 +3,8 @@ title: 异步数据
 description: Nuxt.js 扩展了 Vue.js，增加了一个叫 `asyncData` 的方法，使得我们可以在设置组件的数据之前能异步获取或处理数据。
 ---
 
-> Nuxt.js 扩展了 Vue.js，增加了一个叫 `asyncData` 的方法，使得我们可以在设置组件的数据之前能异步获取或处理数据。
-
-<div>
-  <a href="http://vueschool.io/?friend=nuxt" target="_blank" class="Promote">
-    <img src="/async-data-with-nuxtjs.png" srcset="/async-data-with-nuxtjs-2x.png 2x" alt="AsyncData by vueschool"/>
-    <div class="Promote__Content">
-      <h4 class="Promote__Content__Title">使用Nuxt.js的异步数据</h4>
-      <p class="Promote__Content__Description">了解如何使用Nuxt.js管理异步数据。</p>
-      <p class="Promote__Content__Signature">由VueSchool制作视频课程，用于支持Nuxt.js开发。</p>
-    </div>
-  </a>
-</div>
+> Nuxt.js 扩展了 Vue.js，增加了一个叫 `asyncData` 的方法，使得我们可以在设置组件的数据之前能异步获取或处理数据
+# 方法
 
 ## asyncData 方法
 

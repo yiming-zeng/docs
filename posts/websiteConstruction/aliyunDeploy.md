@@ -6,7 +6,7 @@
 
 查看本机的node版本: `win+r/cmd` `node-v  `
 
-```bash
+```
 // 从Node.js的站点中获取对应版本的压缩档源代码并解压缩
 wget https://nodejs.org/dist/v12.13.0/node-v12.13.0-linux-x64.tar.xz
 tar xvf node-v12.13.0-linux-x64.tar.xz
@@ -16,13 +16,13 @@ ln -s /root/node-v12.13.0-linux-x64/bin/npm /usr/local/bin/npm
 ```
 ## 安装cnpm
 
-```bash
+```
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 ln -s /root/node-v12.13.0-linux-x64/bin/cnpm /usr/local/bin/cnpm
 ```
 ## 安装pm2
 
-```bash
+```
 cnpm install pm2 -g
 ln -s /root/node-v12.13.0-linux-x64/bin/pm2 /usr/local/bin/pm2
 ```
@@ -57,7 +57,7 @@ pm2常用命令
 
 使用FileZilla代码到home/app目录下，进入应用目录 `cd /` `cd home` `cd app`
 
-```bash
+```
 cnpm install
 pm2 start npm --name "app" -- start
 ```
@@ -68,7 +68,7 @@ pm2 start npm --name "app" -- start
 2. 授权对象: 0.0.0.0/0
 
 后期遇到特殊情况需要删除服务器中的node_modules目录，可安装rimraf实现快速删除
-```bash
+```
 cnpm install rimraf -g
 ln -s /root/node-v12.13.0-linux-x64/bin/rimraf /usr/local/bin/rimraf
 rimraf node_modules

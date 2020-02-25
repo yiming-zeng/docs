@@ -2,7 +2,7 @@
   {
     "name": "websiteConstruction",
     "title": "建站记录",
-    "discription": "记录网站建设中用到的一些技术、流程与方法",
+    "discription": ["记录网站建设中用到的一些技术、流程与方法"],
     "posts": [
       {
         "title": "阿里云部署Nuxt.js项目",

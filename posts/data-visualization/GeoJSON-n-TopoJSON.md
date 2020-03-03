@@ -180,8 +180,11 @@
 
 基于这种弧的存储方式可以表达出拓扑关系，由于弧只记录一次及地理坐标使用整数，不使用浮点数，相对于 `GeoJSON` ，`TopoJSON` 消除了冗余，即使不经过简化也能使文件大小缩小 80%甚至以上。
 
-`TopoJSON` 的推导过程: [How To Infer Topology](https://bost.ocks.org/mike/topology/)
-`TopoJSON` 的规范: [topojson-specification](https://github.com/topojson/topojson-specification)
+## 扩展阅读
+
+- `TopoJSON` 的推导过程: [How To Infer Topology](https://bost.ocks.org/mike/topology/)
+
+- `TopoJSON` 的规范: [topojson-specification](https://github.com/topojson/topojson-specification)
 
 # 数据处理
 

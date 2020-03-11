@@ -1,12 +1,12 @@
 > 工欲善其事，必先利其器
 
-# 什么是 `GeoJSON`
+# 什么是 *GeoJSON*
 
-`GeoJSON` 是一种用于对多种地理数据结构进行编码的数据格式。它支持的几何类型包括: 点 `Point` ，线 `LineString` ，面 `Polygon` ，多点 `MultiPoint` ，多线 `MultiLineString` ，多面 `MultiPolygon` ，以及几何集合 `GeometryCollection` 。一个 `GeoJSON` 对象可代表一个对应空间区域的几何对象，或者是一个有界空间实体，该实体又被称为特征，其包含一个几何对象和其他属性，同时可用特征集合表示一系列特征。
+**GeoJSON** 是一种用于对多种地理数据结构进行编码的数据格式。它支持的几何类型包括: 点 ( *Point* )，线 ( *LineString* )，面 ( *Polygon* ) ，多点 ( *MultiPoint* ) ，多线 ( *MultiLineString* ) ，多面 ( *MultiPolygon* )，以及几何集合 ( *GeometryCollection* ) 。一个 *GeoJSON* 对象可代表一个对应空间区域的几何对象，或者是一个有界空间实体，该实体又被称为特征，其包含一个几何对象和其他属性，同时可用特征集合表示一系列特征。
 
-2015年，国际互联网工程任务组（The *Internet* *Engineering* *Task* *Force*，简称 IETF）与 `GeoJSON` 的一些开创作者门组建了 `GeoJSON` 工作组 [GeoJSON WG](https://datatracker.ietf.org/wg/geojson/charter/) ，对 `GeoJSON` 进行了标准化工作，并于2016年8月公布了新的 `GeoJSON` 格式标准 [RFC 7946](https://tools.ietf.org/html/rfc7946) 。
+2015年，国际互联网工程任务组（The *Internet* *Engineering* *Task* *Force*，简称 IETF）与 *GeoJSON* 的一些开创作者门组建了 *GeoJSON* 工作组 [GeoJSON WG](https://datatracker.ietf.org/wg/geojson/charter/) ，对*GeoJSON*进行了标准化工作，并于2016年8月公布了新的*GeoJSON*格式标准 [RFC 7946](https://tools.ietf.org/html/rfc7946) 。
 
-## `GeoJSON` 示例 
+## 示例 
 
 ### 点
 
@@ -170,9 +170,9 @@
 }
 ```
 
-# 什么是 `TopoJSON`
+# 什么是 *TopoJSON*
 
-`TopoJSON`  是 `GeoJSON` 按拓扑学编码后的扩展形式，使用点、弧（有向线）来表示图形。`TopoJSON`  文件由三部分组成：
+**TopoJSON** 是 *GeoJSON* 按拓扑学编码后的扩展形式，使用点、弧（有向线）来表示图形。*TopoJSON* 文件由三部分组成：
 
 - `transform` 描述了变换参数；
 - `objects` 描述地理实体包含空间及属性信息；
@@ -182,9 +182,9 @@
 
 ## 扩展阅读
 
-- `TopoJSON` 的推导过程: [How To Infer Topology](https://bost.ocks.org/mike/topology/)
+- *TopoJSON* 的推导过程: [How To Infer Topology](https://bost.ocks.org/mike/topology/)
 
-- `TopoJSON` 的规范: [topojson-specification](https://github.com/topojson/topojson-specification)
+- *TopoJSON* 的规范: [topojson-specification](https://github.com/topojson/topojson-specification)
 
 # 数据处理
 
@@ -204,13 +204,13 @@ npm install topojson -g
 
 包括了三个模块
 
-- [topojson-server](https://github.com/topojson/topojson-server): 提供了 `GeoJSON` 转为 `TopoJSON` 的方法和命令行工具
-- [topojson-simplify](https://github.com/topojson/topojson-simplify): 提供了对 `TopoJSON` 数据保留拓扑结构的简化和过滤方法；
-- [topojson-client](https://github.com/topojson/topojson-client): 提供了操作 `TopoJSON` 的工具，包括图形合并和坐标量化，以及将 `TopoJSON` 转回 `GeoJSON` 的工具。
+- [topojson-server](https://github.com/topojson/topojson-server) 提供 *GeoJSON* 转为 *TopoJSON* 的方法和命令行工具
+- [topojson-simplify](https://github.com/topojson/topojson-simplify) 提供对 *TopoJSON* 数据保留拓扑结构的简化和过滤方法；
+- [topojson-client](https://github.com/topojson/topojson-client) 提供操作 *TopoJSON* 的工具，包括图形合并和坐标量化，以及将 *TopoJSON* 转回 *GeoJSON* 的工具。
 
-## 地图综合工具 `mapshaper`
+## 地图综合工具 *mapshaper*
 
-[mapshaper](https://mapshaper.org/) 是一个在线的地图综合服务 ，利用它可以完成地理数据格式的转换，支持的数据类型包括`Shapefile` , `GeoJSON` , `TopoJSON` , `DBF` , `CSV` 。此外，利用 `mapshaper` 可进行数据的简化，即减少数据的细节，实现数据的压缩，支持的方法包括:
+[**mapshaper**](https://mapshaper.org/) 是一个在线的地图综合服务 ，利用它可以完成地理数据格式的转换，支持的数据类型包括：*Shapefile*, *GeoJSON* , *TopoJSON* , *DBF* , *CSV* 。此外，利用 *mapshaper* 可进行数据的简化，即减少数据的细节，实现数据的压缩，支持的方法包括:
 
 - `Douglas-Peucker` :  简化线与原始线保持一定距离，有利于降低点的密度，但是高度简化下容易出现尖角；
 - `Visvalingam/effective area` :  通过迭代地去除构成具有两个邻接点的最小三角形的点来简化线；

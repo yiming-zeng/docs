@@ -38,7 +38,7 @@
     ]
   },
   {
-    "name": "data-visualization",
+    "name": "data-n-visualization",
     "title": "数据与可视化",
     "discription": ["探究五花八门的数据视觉表现形式"],
     "posts": [
@@ -47,6 +47,12 @@
         "name": "GeoJSON-n-TopoJSON",
         "discription": "GeoJSON & TopoJSON",
         "date": "20200303"
+      },
+      {
+        "title": "D3.js与地图可视化",
+        "name": "d3js-map",
+        "discription": "D3.js与地图应用",
+        "date": "20200305"
       }
     ]
   }

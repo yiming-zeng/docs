@@ -50,7 +50,7 @@
       },
       {
         "title": "D3.js与地图可视化",
-        "name": "d3js-map",
+        "name": "d3js-geo",
         "discription": "D3.js与地图应用",
         "date": "20200305"
       }

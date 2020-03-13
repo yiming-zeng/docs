@@ -34,13 +34,19 @@
         "name": "aliyun-deploy",
         "discription": "阿里云部署Nuxt.js项目",
         "date": "20200223"
+      },
+      {
+        "title": "nginx基本使用",
+        "name": "nginx-basic-usage",
+        "discription": "nginx基本使用",
+        "date": "20200313"
       }
     ]
   },
   {
     "name": "data-n-visualization",
     "title": "数据与可视化",
-    "discription": ["探究五花八门的数据视觉表现形式"],
+    "discription": ["探究数据与视觉表现形式"],
     "posts": [
       {
         "title": "GeoJSON & TopoJSON",

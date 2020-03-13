@@ -4,7 +4,7 @@
 
 **GeoJSON** 是一种用于对多种地理数据结构进行编码的数据格式。它支持的几何类型包括: 点 ( *Point* )，线 ( *LineString* )，面 ( *Polygon* ) ，多点 ( *MultiPoint* ) ，多线 ( *MultiLineString* ) ，多面 ( *MultiPolygon* )，以及几何集合 ( *GeometryCollection* ) 。一个 *GeoJSON* 对象可代表一个对应空间区域的几何对象，或者是一个有界空间实体，该实体又被称为特征，其包含一个几何对象和其他属性，同时可用特征集合表示一系列特征。
 
-2015年，国际互联网工程任务组（The *Internet* *Engineering* *Task* *Force*，简称 IETF）与 *GeoJSON* 的一些开创作者门组建了 *GeoJSON* 工作组 [GeoJSON WG](https://datatracker.ietf.org/wg/geojson/charter/) ，对*GeoJSON*进行了标准化工作，并于2016年8月公布了新的*GeoJSON*格式标准 [RFC 7946](https://tools.ietf.org/html/rfc7946) 。
+2015年，国际互联网工程任务组（The *Internet Engineering Task Force*，简称 IETF）与 *GeoJSON* 的一些开创作者门组建了 *GeoJSON* 工作组 [GeoJSON WG](https://datatracker.ietf.org/wg/geojson/charter/) ，对*GeoJSON*进行了标准化工作，并于2016年8月公布了新的 *GeoJSON* 格式标准 [RFC 7946](https://tools.ietf.org/html/rfc7946) 。
 
 ## 示例 
 

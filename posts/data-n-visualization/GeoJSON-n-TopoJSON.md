@@ -222,4 +222,5 @@ npm install topojson -g
 
 - [world-atlas](https://github.com/topojson/world-atlas)
 - [us-atlas](https://github.com/topojson/us-atlas)
+- [Natural Earth](https://www.naturalearthdata.com/downloads/)
 
